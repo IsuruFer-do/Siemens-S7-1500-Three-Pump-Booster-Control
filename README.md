@@ -52,6 +52,28 @@ The HMI includes three screens:
 1. **Overview:** Pressure, PID output, pump roles, VFD speeds, water demand and Start/Stop controls.
 2. **Pressure Trends:** Live actual pressure and setpoint monitoring.
 3. **Alarm Monitoring:** Pump-fault and high/low pressure alarm events.
+## Project Screenshots
+
+### 1. Normal Operation — 35% Demand
+![Normal operation at 35% demand](screenshots/Run35.png)
+
+### 2. High Demand — 85% Demand
+![Automatic assist pump operation at 85% demand](screenshots/Run85.png)
+
+### 3. Low Demand — 20% Demand
+![Automatic pump stage-down at 20% demand](screenshots/Run20.png)
+
+### 4. Pump 1 Fault — Automatic Lead Changeover
+![Pump 1 fault and standby pump takeover](screenshots/Pump1Fault.png)
+
+### 5. Pump 2 Fault — Automatic Assist Changeover
+![Pump 2 fault and standby assist changeover](screenshots/Pump2Fault.png)
+
+### 6. PID Pressure Trends
+![WinCC PID pressure monitoring](screenshots/TrendScreen.png)
+
+### 7. Alarm Monitoring
+![WinCC alarm monitoring screen](screenshots/AlarmScreen.png)
 
 ## Testing and Validation
 
