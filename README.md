@@ -97,6 +97,23 @@ The repository will include:
 - Simulation test evidence
 - Demonstration video link, when available
 
+### Technical Engineering Report
+
+[View the Full Engineering Report (PDF)](docs/Three_Pump_Booster_Engineering_Portfolio_Report.pdf)
+
+The report covers PLC architecture, PID control, pump sequencing, fault changeover, WinCC HMI development and simulation validation.
+
+### Download TIA Portal Project
+
+[Download Siemens TIA Portal V19 Project (.zap19)](project/Three_Pump_Booster_Control_Final.zap19)
+
+The archive contains the Siemens S7-1500 PLC program, Function Blocks, PID_Compact configuration, data blocks and WinCC HMI project.
+
+**Requirements:** Siemens TIA Portal V19 and compatible
+Siemens simulation/runtime software.
+
+**Note:** This project is intended for simulation and educational demonstration, not direct deployment on physical equipment.
+
 ## Engineering Scope
 
 This is a **software simulation and validation project**. Pumps, VFDs, instrumentation and hydraulic behaviour are simulated. No physical equipment was commissioned.
